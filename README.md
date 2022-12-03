@@ -9,7 +9,7 @@
         sudo apt install neovim -y
 
 - #### Arch
-        sudo pacman -Sy
+        sudo pacman -Syu && sudo pacman -Sy -y
         sudo pacman -S neovim
 
 # Onde colocar esses código?
