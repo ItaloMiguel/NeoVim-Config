@@ -20,7 +20,12 @@
         nvim init.vim
     - Depois que fizer isso é só cópiar o comando que existe no arquivo do repositorio
 
+# Cole isso em seu terminal se você usa sistema Linux, Unix
+
+- #### Código para baixar as extenções e nvim completo sem trabalho
+        sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 ### Créditos
-- Eu mesmo, se poder deixa uma estrelinha eu ficaria muito grato. Bom estudos meu jovem
+- Curso da alura e alguns tutoriais na internet. Fiz isso apenas para adianta a vida das pessoas que querem usar vim e não sabe muito bem configurar ou esta com preguiça
     
