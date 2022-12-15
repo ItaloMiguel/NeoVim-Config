@@ -10,7 +10,7 @@
 
 - #### Arch
         sudo pacman -Syu && sudo pacman -Sy -y
-        sudo pacman -S neovim
+        sudo pacman -S neovim -y
 
 # Onde colocar esses código?
 
